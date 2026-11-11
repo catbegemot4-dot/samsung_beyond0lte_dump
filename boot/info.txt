@@ -1,0 +1,14 @@
+base address: 0x10000000
+board name: SRPRI28A009KU
+cmdline: androidboot.selinux=permissive androidboot.selinux=permissive
+dtb offset: None
+header version: 1
+image type: AOSP
+kernel offset: 0x00008000
+original size: 57671680
+os version: 11.0.0
+page size: 2048
+ramdisk compression: empty
+ramdisk offset: 0xf0000000
+sigtype: AVBv2
+tags offset: 0x00000100
