@@ -1,0 +1,23 @@
+{
+    "note": "Add imsupdate for SM-G970F with carrier = DOO",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Aliv_BS",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            },
+            {
+                "mnoname": "Cable_PA",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            }
+        ]
+    }
+}

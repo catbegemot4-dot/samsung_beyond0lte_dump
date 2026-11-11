@@ -1,0 +1,16 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Enable IMS service for Epic_CY",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Epic_CY",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}
