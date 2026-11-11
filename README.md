@@ -46,7 +46,7 @@ Due to GitHub's 100 MB file size limit, files exceeding 95 MB (such as large APK
 To reassemble them after cloning:
 
 ```bash
-find . -name "*.part00" -exec sh -c 'cat "\${1%.part00}.part"* > "\({1\%.part00}" && rm -f "\){1%.part00}.part"*' _ {} \;
+find . -name '*.part00' -exec sh -c 'cat "${1%.part00}".part* > "${1%.part00}"' _ {} \;
 ```
 
 ---
